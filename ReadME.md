@@ -39,7 +39,7 @@ This project work on when the temprature value crosses the thresold limit which 
 
 
 
-## Code for reciever
+## Code 
 
 ```javascript
 /* embed */
