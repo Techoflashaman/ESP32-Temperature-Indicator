@@ -2,13 +2,14 @@
 embed
 https://embed.org.in
 */
-#include <WiFi.h>
-#include <DHT.h>
+#include <WiFi.h>   //Include Library WiFi.h
+#include <DHT.h>    //Include Library DHT.h
 
 #define DHTPIN 15
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
+//Your WiFi credentials
 const char* ssid = "************";
 const char* password = "***********";
 

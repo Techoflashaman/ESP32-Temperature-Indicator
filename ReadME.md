@@ -44,13 +44,14 @@ This project work on when the temprature value crosses the thresold limit which 
 ```javascript
 /* embed */
 
-#include <WiFi.h>
-#include <DHT.h>
+#include <WiFi.h>   //Include Library WiFi.h
+#include <DHT.h>    //Include Library DHT.h
 
 #define DHTPIN 15
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
+//Your WiFi credentials
 const char* ssid = "************";
 const char* password = "***********";
 
