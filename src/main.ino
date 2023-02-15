@@ -5,7 +5,7 @@ https://embed.org.in
 #include <WiFi.h>   //Include Library WiFi.h
 #include <DHT.h>    //Include Library DHT.h
 
-#define DHTPIN 15
+#define DHTPIN 15   // DHT11 Tempreture sensor PIN attach to ESP32 PIN 15   
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
