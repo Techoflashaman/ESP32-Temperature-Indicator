@@ -1,6 +1,7 @@
 /*
-embed
-https://embed.org.in
+* Author : Mohd Aman Ansari
+* embed
+* https://embed.org.in
 */
 #include <WiFi.h>   //Include Library WiFi.h
 #include <DHT.h>    //Include Library DHT.h

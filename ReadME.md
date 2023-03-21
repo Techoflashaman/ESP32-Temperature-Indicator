@@ -5,17 +5,14 @@ This project work on when the temprature value crosses the thresold limit which 
 
 
 
-## Components required for making this project
+## Components Used
 
 
-1. 1 ESP32 Dev kit
-2. 1 LED
-3. 1 DHT11 Sensor
-4. 1 4.7K Resistor
+1. ESP32 Dev kit
+2. LED
+3. DHT11 Sensor
+4. 4.7K Resistor
 5. Power Supply 
-
-
-
 
 ## Schematic 
 
@@ -42,7 +39,11 @@ This project work on when the temprature value crosses the thresold limit which 
 ## Code 
 
 ```javascript
-/* embed */
+/*
+* Author : Mohd Aman Ansari
+* embed
+* https://embed.org.in
+*/
 
 #include <WiFi.h>   //Include Library WiFi.h
 #include <DHT.h>    //Include Library DHT.h
