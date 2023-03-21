@@ -60,7 +60,7 @@ int ledPin = 2; // pin to which the led is connected
 float temperatureThreshold = 25; // temperature threshold value
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200);  //set baudrate
   dht.begin();
 
   WiFi.begin(ssid, password);
